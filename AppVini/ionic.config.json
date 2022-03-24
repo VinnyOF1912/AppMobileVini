@@ -1,0 +1,7 @@
+{
+  "name": "AppVini",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
