@@ -10,6 +10,30 @@ const routes: Routes = [
   {
     path: 'folder/:id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+  },
+  {
+    path: 'navegacao',
+    loadChildren: () => import('./pages/navegacao/navegacao.module').then( m => m.NavegacaoPageModule)
+  },
+  {
+    path: 'visualizacao',
+    loadChildren: () => import('./pages/visualizacao/visualizacao.module').then( m => m.VisualizacaoPageModule)
+  },
+  {
+    path: 'visualizacao1',
+    loadChildren: () => import('./pages/visualizacao1/visualizacao1.module').then( m => m.Visualizacao1PageModule)
+  },
+  {
+    path: 'visualizacao2',
+    loadChildren: () => import('./pages/visualizacao2/visualizacao2.module').then( m => m.Visualizacao2PageModule)
+  },
+  {
+    path: 'visualizacao3',
+    loadChildren: () => import('./pages/visualizacao3/visualizacao3.module').then( m => m.Visualizacao3PageModule)
+  },
+  {
+    path: 'visualizacao4',
+    loadChildren: () => import('./pages/visualizacao4/visualizacao4.module').then( m => m.Visualizacao4PageModule)
   }
 ];
 

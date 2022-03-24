@@ -12,6 +12,12 @@ export class AppComponent {
     { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
     { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
     { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
+    { title: 'Navegação', url: '/navegacao', icon: 'code'},
+    { title: 'Visualização', url: '/visualizacao', icon: 'eye'},
+    { title: 'Visualização1', url: '/visualizacao1', icon: 'eye'},
+    { title: 'Visualização2', url: '/visualizacao2', icon: 'eye'},
+    { title: 'Visualização3', url: '/visualizacao3', icon: 'eye'},
+    { title: 'Visualização4', url: '/visualizacao4', icon: 'eye'},
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
