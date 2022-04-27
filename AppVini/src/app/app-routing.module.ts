@@ -50,6 +50,10 @@ const routes: Routes = [
   {
     path: 'pagina-alertas',
     loadChildren: () => import('./pages/pagina-alertas/pagina-alertas.module').then( m => m.PaginaAlertasPageModule)
+  },
+  {
+    path: 'pagina-action-sheet',
+    loadChildren: () => import('./pages/pagina-action-sheet/pagina-action-sheet.module').then( m => m.PaginaActionSheetPageModule)
   }
 ];
 

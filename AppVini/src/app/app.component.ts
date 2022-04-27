@@ -21,6 +21,8 @@ export class AppComponent {
     { title: 'Alerta', url: '/alert', icon: 'alert-circle'},
     { title: 'Action Sheet', url: '/actionsheet', icon: 'alert'},
     { title: 'Badge', url: '/badge', icon: 'list'},
+    { title: 'Pagina Alertas', url: '/paginaalertas', icon: 'alert'},
+    { title: 'Pagina Action Sheet', url: '/paginaactionsheet', icon: 'alert'},
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
