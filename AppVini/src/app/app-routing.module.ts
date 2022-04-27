@@ -34,6 +34,22 @@ const routes: Routes = [
   {
     path: 'visualizacao4',
     loadChildren: () => import('./pages/visualizacao4/visualizacao4.module').then( m => m.Visualizacao4PageModule)
+  },
+  {
+    path: 'alert',
+    loadChildren: () => import('./pages/alert/alert.module').then( m => m.AlertPageModule)
+  },
+  {
+    path: 'actionsheet',
+    loadChildren: () => import('./pages/actionsheet/actionsheet.module').then( m => m.ActionsheetPageModule)
+  },
+  {
+    path: 'badge',
+    loadChildren: () => import('./pages/badge/badge.module').then( m => m.BadgePageModule)
+  },
+  {
+    path: 'pagina-alertas',
+    loadChildren: () => import('./pages/pagina-alertas/pagina-alertas.module').then( m => m.PaginaAlertasPageModule)
   }
 ];
 

@@ -18,6 +18,9 @@ export class AppComponent {
     { title: 'Visualização2', url: '/visualizacao2', icon: 'eye'},
     { title: 'Visualização3', url: '/visualizacao3', icon: 'eye'},
     { title: 'Visualização4', url: '/visualizacao4', icon: 'eye'},
+    { title: 'Alerta', url: '/alert', icon: 'alert-circle'},
+    { title: 'Action Sheet', url: '/actionsheet', icon: 'alert'},
+    { title: 'Badge', url: '/badge', icon: 'list'},
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
