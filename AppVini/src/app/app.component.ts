@@ -23,6 +23,8 @@ export class AppComponent {
     { title: 'Badge', url: '/badge', icon: 'list'},
     { title: 'Pagina Alertas', url: '/paginaalertas', icon: 'alert'},
     { title: 'Pagina Action Sheet', url: '/paginaactionsheet', icon: 'alert'},
+    { title: 'Pagina Badge', url: '/paginabadge', icon: 'list'},
+    
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}

@@ -54,6 +54,10 @@ const routes: Routes = [
   {
     path: 'pagina-action-sheet',
     loadChildren: () => import('./pages/pagina-action-sheet/pagina-action-sheet.module').then( m => m.PaginaActionSheetPageModule)
+  },
+  {
+    path: 'pagina-bagde',
+    loadChildren: () => import('./pages/pagina-bagde/pagina-bagde.module').then( m => m.PaginaBagdePageModule)
   }
 ];
 
