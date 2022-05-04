@@ -24,6 +24,7 @@ export class AppComponent {
     { title: 'Pagina Alertas', url: '/paginaalertas', icon: 'alert'},
     { title: 'Pagina Action Sheet', url: '/paginaactionsheet', icon: 'alert'},
     { title: 'Pagina Badge', url: '/paginabadge', icon: 'list'},
+    { title: 'Card', url: '/card', icon: 'newspaper'},
     
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];

@@ -58,6 +58,10 @@ const routes: Routes = [
   {
     path: 'pagina-bagde',
     loadChildren: () => import('./pages/pagina-bagde/pagina-bagde.module').then( m => m.PaginaBagdePageModule)
+  },
+  {
+    path: 'card',
+    loadChildren: () => import('./pages/card/card.module').then( m => m.CardPageModule)
   }
 ];
 
